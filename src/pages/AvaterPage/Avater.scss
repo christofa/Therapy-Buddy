@@ -1,0 +1,39 @@
+.Avater {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 100px;
+  background-color: black;
+
+  .male-section {
+    border-radius: 50%;
+    img {
+      width: 250px;
+      height: 200px;
+      border-radius: 50%;
+    }
+    h2 {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+  }
+
+  .female-section {
+    img {
+      width: 250px;
+      height: 200px;
+      border-radius: 50%;
+    }
+    h2 {
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.chatbot-section {
+  background-color: #090909;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 2px;
+
+  .chat-cover1 {
+    width: 30%;
+    height: 650px;
+    background-image: url(/Therapy-Buddy/public/Images/background-img.jpg);
+    border: 1px solid #090909;
+  }
+
+  .chat-cover2 {
+    width: 70%;
+    .chat-section {
+      width: 100%;
+      height: 650px;
+      border: 1px solid #090909;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    div {
+      border: 1px solid #99FFAF; 
+      background-color: #99FFAF;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 43px;
+        height: 43px;
+        border-radius: 50px;
+      }
+    }
+    button {
+      width: 330px;
+      height: 65px;
+      background-color: #141414;
+      color: white;
+      border-top-right-radius: 30px;
+      border-bottom-right-radius: 30px;
+    }
+  }
+}
