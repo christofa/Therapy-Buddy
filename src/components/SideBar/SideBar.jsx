@@ -21,6 +21,13 @@ function SideBar() {
           <button> Grace </button>
         </Link>
       </div>
+
+      <div className="user-details">
+        <div>
+          <span>CO</span>
+        </div>
+        <p>Christopher Okoro</p>
+      </div>
     </div>
   );
 }

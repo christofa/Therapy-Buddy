@@ -21,4 +21,13 @@
       border: 1px solid #090909;
     }
   }
+
+  @media only screen and (max-width: 480px) {
+    .chat-cover1 {
+      display: none;
+    }
+    .chat-cover2 {
+      width: 100%;
+    }
+  }
 }

@@ -1,23 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Mooli&family=Nunito:wght@500&display=swap");
 .SideBar {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+
   div {
     display: flex;
     justify-content: left;
     align-items: center;
+    font-family: Montserrat;
 
     div {
-      border: 1px solid #99FFAF; 
-      background-color: #99FFAF;
+      border: 1px solid #99ffaf;
+      background-color: #99ffaf;
       width: 60px;
       height: 60px;
       display: flex;
       justify-content: center;
       align-items: center;
       img {
-        width: 43px;
-        height: 43px;
+        width: 53px;
+        height: 53px;
         border-radius: 50px;
       }
     }
@@ -28,6 +35,33 @@
       color: white;
       border-top-right-radius: 30px;
       border-bottom-right-radius: 30px;
+      font-family: Montserrat;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  .user-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 87%;
+
+    div {
+      width: 20%;
+      height: 80px;
+      border: 1px solid white;
+      border-radius: 50px;
+
+      span {
+        color: rgb(3, 104, 37);
+      }
+    }
+
+    p {
+      color: white;
     }
   }
 }
