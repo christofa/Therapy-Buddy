@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { MdEmail } from "react-icons/md";
 import { FaUser } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { RiLockPasswordFill } from "react-icons/ri";
 import "./Register.scss";
 
@@ -70,7 +71,10 @@ const Register = () => {
             }}
           />
         </div>
+        <Link to="/">
         <button onClick={handleRegister}>Register</button>
+        </Link>
+        
       </div>
     </div>
   );

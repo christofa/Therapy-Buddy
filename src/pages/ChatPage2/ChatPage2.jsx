@@ -11,7 +11,6 @@ function ChatPage2() {
         <iframe
           src="https://demo.diddo.chat/chatbot/a33275ee-fde9-42ac-8932-1c846ec145e7"
           id="a33275ee-fde9-42ac-8932-1c846ec145e7"
-          // style={{width: "100%", height: "800px", border: "none"}}
           className="chat-section"
         ></iframe>
       </div>

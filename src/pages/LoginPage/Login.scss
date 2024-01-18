@@ -4,22 +4,33 @@
   align-items: center;
   height: 100vh;
   background-image: url(/Images/sidebar-photo1.jpg);
+  font-family: Montserrat;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
 
 
   .auth-container {
-    width: 300px;
+    width: 350px;
     margin: 50px auto;
     padding: 20px;
     border: 1px solid #ccc;
     background-color: white;
     border-radius: 5px;
     text-align: center;
+    
   }
 
   input {
     width: 90%;
     padding: 10px;
     margin-bottom: 5px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
   ::placeholder {
     padding: 0 30px;
@@ -40,6 +51,15 @@
     text-align: center;
   }
 
+  p {
+    display: flex;
+    justify-content: left;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    top: 15px;
+  }
+
   button {
     width: 100%;
     padding: 10px;
@@ -49,6 +69,11 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
   }
 
   button:hover {

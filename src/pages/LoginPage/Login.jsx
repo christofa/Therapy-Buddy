@@ -43,8 +43,11 @@ const Login = () => {
               setPassIcon(false);
             }}
           />
+          <Link to="/avater">
           <button onClick={handleLogin}>Login</button>
+          </Link>
 
+          <p>New User?</p>
           <Link to="/register">
             <button> Register </button>
           </Link>
